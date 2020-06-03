@@ -1,0 +1,810 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+html {
+  font-family: "Montserrat";
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section {
+  -webkit-box-shadow: 0 25px 30px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 25px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 0.3rem;
+  margin: 5rem auto;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, #141e30), color-stop(360%, #243b55));
+  background: linear-gradient(360deg, #141e30 10%, #243b55 360%);
+  width: 90%;
+}
+
+article {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem 0;
+  letter-spacing: 2px;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 1.2rem;
+  margin: 2rem 1rem;
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#hover1 {
+  /* /article ENDS */
+}
+
+#hover1 article {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2rem 4rem;
+  /* /btn1 ENDS*/
+  /* /btn2 ENDS*/
+  /* /btn3 ENDS */
+}
+
+#hover1 article h2 {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  padding: 1rem 0;
+}
+
+#hover1 article a {
+  border: 1px solid #fff;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  overflow: hidden;
+  color: #fff;
+  max-width: 30%;
+}
+
+#hover1 article .btn1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -101%;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  border: 1px solid #fff;
+  z-index: -1;
+}
+
+#hover1 article .btn1:hover::before {
+  left: 0;
+  z-index: -1;
+}
+
+#hover1 article .btn1:hover {
+  color: #243b55;
+  font-weight: bold;
+}
+
+#hover1 article .btn2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -101%;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  border: 1px solid #fff;
+  z-index: -1;
+}
+
+#hover1 article .btn2:hover::before {
+  right: 0;
+  z-index: -1;
+}
+
+#hover1 article .btn2:hover {
+  color: #243b55;
+  font-weight: bold;
+}
+
+#hover1 article .btn3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -101%;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  border: 1px solid #fff;
+  z-index: -1;
+}
+
+#hover1 article .btn3::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -101%;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  border: 1px solid #fff;
+  z-index: -1;
+}
+
+#hover1 article .btn3:hover::before {
+  left: 0;
+  z-index: -1;
+}
+
+#hover1 article .btn3:hover::after {
+  right: 0;
+  z-index: -1;
+}
+
+#hover1 article .btn3:hover {
+  color: #243b55;
+  font-weight: bold;
+}
+
+/* /#hover1 ENDS */
+#hover2 {
+  /* /article ENDS */
+}
+
+#hover2 article {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2rem 4rem;
+  /* /btn1 ENDS */
+  /* /btn2 ENDS */
+}
+
+#hover2 article h2 {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+#hover2 article a {
+  max-width: 30%;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+#hover2 article .btn1 {
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  letter-spacing: 2px;
+  -webkit-transition: letter-spacing 0.5s cubic-bezier(0.17, 0.67, 0.09, 1.91);
+  transition: letter-spacing 0.5s cubic-bezier(0.17, 0.67, 0.09, 1.91);
+}
+
+#hover2 article .btn1:hover {
+  letter-spacing: 10px;
+}
+
+#hover2 article .btn2 {
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  letter-spacing: 2px;
+  -webkit-transition: letter-spacing 0.3s cubic-bezier(0.17, 0.67, 0.09, 1.91);
+  transition: letter-spacing 0.3s cubic-bezier(0.17, 0.67, 0.09, 1.91);
+}
+
+#hover2 article .btn2:hover {
+  -webkit-animation: hover 0.3s;
+          animation: hover 0.3s;
+  letter-spacing: 10px;
+}
+
+@-webkit-keyframes hover {
+  0% {
+    letter-spacing: 0px;
+  }
+  50% {
+    letter-spacing: -8px;
+  }
+  100% {
+    letter-spacing: 10px;
+  }
+}
+
+@keyframes hover {
+  0% {
+    letter-spacing: 0px;
+  }
+  50% {
+    letter-spacing: -8px;
+  }
+  100% {
+    letter-spacing: 10px;
+  }
+}
+
+/* /hover2 ENDS */
+#hover3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 2rem 4rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  /* /article ENDS */
+}
+
+#hover3 article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+#hover3 article a {
+  max-width: 50%;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  font-weight: bold;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: transparent;
+}
+
+#hover3 article a.btn1::before {
+  content: attr(title);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.1rem;
+  padding: 1rem;
+  background: #fff;
+  color: #243b55;
+  border: 2px solid #243b55;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-transform: translateX(-100%) rotateY(90deg);
+          transform: translateX(-100%) rotateY(90deg);
+}
+
+#hover3 article a.btn1::after {
+  content: attr(title);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.1rem;
+  padding: 1rem;
+  background: #fff;
+  color: #243b55;
+  border: 2px solid #243b55;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: translateX(0%) rotateY(0deg);
+          transform: translateX(0%) rotateY(0deg);
+}
+
+#hover3 article a.btn1:hover::before {
+  -webkit-transform: translateX(0) rotateY(0deg);
+          transform: translateX(0) rotateY(0deg);
+}
+
+#hover3 article a.btn1:hover::after {
+  -webkit-transform: translateX(100%) rotateY(90deg);
+          transform: translateX(100%) rotateY(90deg);
+}
+
+#hover3 article a.btn2::before {
+  content: attr(title);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.1rem;
+  padding: 1rem;
+  background: #fff;
+  color: #243b55;
+  border: 2px solid #243b55;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-transform: translateX(0%) rotateY(0deg);
+          transform: translateX(0%) rotateY(0deg);
+}
+
+#hover3 article a.btn2::after {
+  content: attr(title);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.1rem;
+  padding: 1rem;
+  background: #fff;
+  color: #243b55;
+  border: 2px solid #243b55;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: translateX(100%) rotateY(-90deg);
+          transform: translateX(100%) rotateY(-90deg);
+}
+
+#hover3 article a.btn2:hover::before {
+  -webkit-transform: translateX(-100%) rotateY(-90deg);
+          transform: translateX(-100%) rotateY(-90deg);
+}
+
+#hover3 article a.btn2:hover::after {
+  -webkit-transform: translateX(0) rotateY(0deg);
+          transform: translateX(0) rotateY(0deg);
+}
+
+/* /hover3 ENDS */
+#hover4 {
+  background: #f6f6f6;
+  /* /article ENDS */
+}
+
+#hover4 article {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2rem 4rem;
+  /* /btn1 ENDS */
+  /* /btn2 ENDS */
+  /* /btn3 ENDS */
+  /* /btn4 ENDS */
+}
+
+#hover4 article h2 {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  color: #162235;
+}
+
+#hover4 article a {
+  max-width: 40%;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  color: #162235;
+  font-weight: bold;
+}
+
+#hover4 article .btn1 {
+  border-radius: 0.5rem;
+  border: 2px solid #162235;
+  position: relative;
+  overflow: hidden;
+  background: transparent;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#hover4 article .btn1:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #162235;
+  top: -100%;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0.5;
+}
+
+#hover4 article .btn1:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #162235;
+  top: -100%;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+#hover4 article .btn1:hover {
+  color: #fff;
+}
+
+#hover4 article .btn1:hover:before {
+  top: 0;
+}
+
+#hover4 article .btn1:hover:after {
+  top: 0;
+}
+
+#hover4 article .btn2 {
+  border-radius: 0.5rem;
+  border: 2px solid #243b55;
+  position: relative;
+  overflow: hidden;
+  background: transparent;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#hover4 article .btn2:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #243b55;
+  top: 200%;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0.5;
+}
+
+#hover4 article .btn2:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #243b55;
+  top: 200%;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+#hover4 article .btn2:hover {
+  color: #fff;
+}
+
+#hover4 article .btn2:hover:before {
+  top: 0;
+}
+
+#hover4 article .btn2:hover:after {
+  top: 0;
+}
+
+#hover4 article .btn3 {
+  border-radius: 0.5rem;
+  border: 2px solid #243b55;
+  position: relative;
+  overflow: hidden;
+  background: transparent;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#hover4 article .btn3:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #243b55;
+  top: 0;
+  left: 100%;
+  z-index: -1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0.5;
+}
+
+#hover4 article .btn3:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #243b55;
+  top: 0;
+  left: 100%;
+  z-index: -1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+#hover4 article .btn3:hover {
+  color: #fff;
+}
+
+#hover4 article .btn3:hover:before {
+  left: 0;
+}
+
+#hover4 article .btn3:hover:after {
+  left: 0;
+}
+
+#hover4 article .btn4 {
+  border-radius: 0.5rem;
+  border: 2px solid #243b55;
+  position: relative;
+  overflow: hidden;
+  background: transparent;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#hover4 article .btn4:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #243b55;
+  top: 0;
+  left: -100%;
+  z-index: -1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0.5;
+}
+
+#hover4 article .btn4:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #243b55;
+  top: 0;
+  left: -100%;
+  z-index: -1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+#hover4 article .btn4:hover {
+  color: #fff;
+}
+
+#hover4 article .btn4:hover:before {
+  left: 0;
+}
+
+#hover4 article .btn4:hover:after {
+  left: 0;
+}
+
+/* /hover4 ENDS */
+#hover5 {
+  background: #f6f6f6;
+  /* /article ENDS */
+}
+
+#hover5 article {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2rem 4rem;
+}
+
+#hover5 article h2 {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  color: #162235;
+}
+
+#hover5 article a {
+  max-width: 40%;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  font-weight: bold;
+  background: transparent;
+  padding: 0.8rem;
+}
+
+#hover5 article .btn1 {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+#hover5 article .btn1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: dodgerblue;
+  opacity: 0.7;
+  z-index: -1;
+  mix-blend-mode: multiply;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-transform: 0.2s;
+          transform: 0.2s;
+  top: -3px;
+  left: -3px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#hover5 article .btn1:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: orangered;
+  opacity: 0.7;
+  z-index: -1;
+  mix-blend-mode: multiply;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  -webkit-transform: 0.2s;
+          transform: 0.2s;
+  bottom: -3px;
+  right: -3px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#hover5 article .btn1:hover:before {
+  top: -6px;
+  left: 0;
+  -webkit-transform: perspective(1000px) rotateX(80deg);
+          transform: perspective(1000px) rotateX(80deg);
+}
+
+#hover5 article .btn1:hover:after {
+  bottom: -6px;
+  right: 0;
+  -webkit-transform: perspective(1000px) rotateX(-80deg);
+          transform: perspective(1000px) rotateX(-80deg);
+}
+
+#hover5 article .btn1:hover {
+  color: #162235;
+}
+
+/* /hover5 ENDS */
+#hover6 {
+  background: #f6f6f6;
+  /* /article ENDS */
+}
+
+#hover6 article {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2rem 4rem;
+  /* /btn1 ENDS*/
+}
+
+#hover6 article h2 {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  color: #162235;
+}
+
+#hover6 article a {
+  max-width: 70%;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  font-weight: bold;
+  background: transparent;
+  padding: 0;
+}
+
+#hover6 article .btn1 {
+  color: #162235;
+  position: relative;
+}
+
+#hover6 article .btn1 span {
+  padding: 1.2rem;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#hover6 article .btn1 span:nth-child(1) {
+  color: #fff;
+  background: #162235;
+  margin-right: -6px;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+#hover6 article .btn1 span:nth-child(1):before {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  content: attr(data-attr);
+  padding: 1.2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: orangered;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-transform: rotateX(90deg) translateY(-50%);
+          transform: rotateX(90deg) translateY(-50%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#hover6 article .btn1 span:nth-child(2) {
+  color: #fff;
+  background: orangered;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+#hover6 article .btn1 span:nth-child(2):before {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  content: attr(data-attr);
+  padding: 1.2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #162235;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  -webkit-transform: rotateX(90deg) translateY(-50%);
+          transform: rotateX(90deg) translateY(-50%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#hover6 article .btn1:hover span:nth-child(1):before {
+  -webkit-transform: rotateX(0deg) translateY(0%);
+          transform: rotateX(0deg) translateY(0%);
+}
+
+#hover6 article .btn1:hover span:nth-child(2):before {
+  -webkit-transform: rotateX(0deg) translateY(0%);
+          transform: rotateX(0deg) translateY(0%);
+}
+
+/* /hover6 ENDS */
+/*# sourceMappingURL=style.css.map */
